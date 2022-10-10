@@ -1,0 +1,2 @@
+import{A as t}from"./index.49cf5f3b.js";import"./index.a51ff5e4.js";import"./iframe.63e900fd.js";import"./index.8bd63b36.js";import"./jsx-runtime.9e078142.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/danielcorrea95.png",alt:"Daniel Correa"},argTypes:{src:{control:{type:"text"}}}},c={},p={args:{src:void 0}},l=["Primary","WithFallback"];export{c as Primary,p as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.f5ee1fa3.js.map
