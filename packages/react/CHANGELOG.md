@@ -1,5 +1,11 @@
 # @danielcorrea-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- export style
+
 ## 2.0.3
 
 ### Patch Changes
