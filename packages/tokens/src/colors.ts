@@ -16,5 +16,22 @@ export const colors = {
   ignite700: '#015F43',
   ignite900: '#00291D',
 
-  test: '#FFF',
+  light: '#F2F4F4',
+  dark: '#202024',
+
+  primaryLight: '#6A80FF',
+  primaryBase: '#4863F7',
+  primaryLow: '#182049',
+
+  successLight: '#04D361',
+  successBase: '#1B873F',
+  successLow: '#051B0D',
+
+  dangerLight: '#FF0005',
+  dangerBase: '#CC0004',
+  dangerLow: '#800003',
+
+  warningLight: '#F8DE4C',
+  warningBase: '#F3B306',
+  warningLow: '#C5912C',
 }
