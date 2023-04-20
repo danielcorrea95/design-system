@@ -1,5 +1,11 @@
 # @danielcorrea-ui/react
 
+## 3.3.0
+
+### Minor Changes
+
+- add select input
+
 ## 3.2.0
 
 ### Minor Changes

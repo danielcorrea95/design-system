@@ -8,5 +8,6 @@ export * from './components/Avatar'
 export * from './components/TextInput'
 export * from './components/Checkbox'
 export * from './components/MultiStep'
+export * from './components/SelectInput'
 
 export * from './styles'
