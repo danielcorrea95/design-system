@@ -32,7 +32,6 @@ export function Toast({
 
   window.setTimeout(() => {
     setOpenToast(false)
-    location.assign(linkButton)
   }, duration)
 
   return (
@@ -48,13 +47,7 @@ export function Toast({
             <p>{description}</p>
           </ToastDescription>
           <ToastAction asChild altText={description}>
-            <Button
-              size={size}
-              variant={typeToast}
-              onClick={() => {
-                location.assign(linkButton)
-              }}
-            >
+            <Button size={size} variant={typeToast} onClick={() => {}}>
               {titleButton}
             </Button>
           </ToastAction>

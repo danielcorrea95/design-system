@@ -13,6 +13,7 @@ export default {
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
           <Button
+            size={'md'}
             onClick={() => {
               return (
                 <>
