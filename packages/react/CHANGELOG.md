@@ -1,5 +1,11 @@
 # @danielcorrea-ui/react
 
+## 3.4.3
+
+### Patch Changes
+
+- fix: toast component
+
 ## 3.4.2
 
 ### Patch Changes

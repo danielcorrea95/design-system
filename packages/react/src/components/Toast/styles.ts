@@ -1,4 +1,4 @@
-import { keyframes, styled } from '@danielcorrea-ui/react'
+import { keyframes, styled } from '../../styles'
 import * as RadixToast from '@radix-ui/react-toast'
 
 export const ToastViewport = styled(RadixToast.Viewport, {
