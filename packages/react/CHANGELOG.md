@@ -1,5 +1,17 @@
 # @danielcorrea-ui/react
 
+## 3.4.1
+
+### Patch Changes
+
+- add some fixes to future projects
+
+## 3.4.0
+
+### Minor Changes
+
+- add select component
+
 ## 3.3.0
 
 ### Minor Changes

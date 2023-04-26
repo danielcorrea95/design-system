@@ -1,17 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Box, SelectInput, SelectInputProps } from '@danielcorrea-ui/react'
 
-const options = [
-  {
-    id: '1',
-    text: 'Item 1',
-  },
-  {
-    id: '2',
-    text: 'Item 2',
-  },
-]
-
 export default {
   title: 'Form/Select Input',
   component: SelectInput,
@@ -23,7 +12,9 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <SelectInput options={options}></SelectInput>
+          <SelectInput>
+            <option>selecione um valor</option>
+          </SelectInput>
         </Box>
       )
     },
