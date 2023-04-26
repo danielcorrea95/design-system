@@ -1,5 +1,11 @@
 # @danielcorrea-ui/react
 
+## 3.4.4
+
+### Patch Changes
+
+- fix docs
+
 ## 3.4.3
 
 ### Patch Changes

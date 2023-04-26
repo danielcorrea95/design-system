@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Toast, ToastProps } from '@danielcorrea-ui/react'
+import { Box, Button, Toast, ToastProps } from '@danielcorrea-ui/react'
 
 export default {
   title: 'Interactive/Toast',
@@ -12,15 +12,26 @@ export default {
           as="label"
           css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
         >
-          <Toast
-            title="sucesso"
-            description="Demostração do toast"
-            duration={3000}
-            size="sm"
-            titleButton="OK"
-            typeToast="success"
-            linkButton="#"
-          />
+          <Button
+            onClick={() => {
+              return (
+                <>
+                  <Toast
+                    title="sucesso"
+                    description="Demostração do toast"
+                    duration={3000}
+                    size="sm"
+                    titleButton="OK"
+                    typeToast="success"
+                    linkButton="#"
+                  />
+                </>
+              )
+            }}
+          >
+            Open Toast
+          </Button>
+
           {Story()}
         </Box>
       )
@@ -28,7 +39,7 @@ export default {
   ],
 } as Meta<ToastProps>
 
-export const sucess: StoryObj<ToastProps> = {
+export const success: StoryObj<ToastProps> = {
   args: {
     typeToast: 'success',
     size: 'sm',
