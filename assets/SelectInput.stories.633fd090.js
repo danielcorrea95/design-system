@@ -1,0 +1,2 @@
+import{S as e,B as t}from"./index.b49ee430.js";import{j as r}from"./jsx-runtime.7d39d284.js";import"./index.08b92f18.js";import"./iframe.34587232.js";import"./index.cadd7b7e.js";const c={title:"Form/Select Input",component:e,args:{},decorators:[o=>r(t,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:r(e,{children:r("option",{children:"selecione um valor"})})})]},m={args:{}},p={args:{disabled:!0}},d=["Primary","Disabled"];export{p as Disabled,m as Primary,d as __namedExportsOrder,c as default};
+//# sourceMappingURL=SelectInput.stories.633fd090.js.map
