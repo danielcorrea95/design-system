@@ -1,5 +1,12 @@
 # @danielcorrea-ui/react
 
+## 3.4.5
+
+### Patch Changes
+
+- add ref at select input
+- 45abd2d: add Toast component
+
 ## 3.4.4
 
 ### Patch Changes
